@@ -1,12 +1,12 @@
-// import React, { Component } from "react";
-// import Router from "next/router";
+import React, { Component } from "react";
+import Router from "next/router";
 
-// export default class _error extends Component {
-//   componentDidMount = () => {
-//     Router.push("/components");
-//   };
+export default class _error extends Component {
+  componentDidMount = () => {
+    Router.push("/index.js");
+  };
 
-//   render() {
-//     return <div />;
-//   }
-// }
+  render() {
+    return <div />;
+  }
+}
